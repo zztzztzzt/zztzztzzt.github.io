@@ -1,0 +1,114 @@
+
+      #zztzzt {
+        background: url("images/ev289.png") no-repeat fixed top ;
+        background-size:  cover ;
+      }
+      a {
+        color: #3d4450;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+      p {
+        font-size: 14px;
+      }
+      ul {
+        list-style: none;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-weight: 400;
+      }
+      #zztheader.navbar {
+        border: 0px;
+        background-color: #3d4452;
+      }
+      #zzt-boder {
+        padding: 40px 0px;
+      }
+      body.nav-attachment{
+        position: relative;
+        padding-top: 50px;
+      }
+      .article-data {
+        background-color: #d9535f;
+        border-color: #d9535f;
+        height: 70px;
+        width: 70px; 
+        border-radius: 70px;
+        position: absolute;
+        left: -20px;
+        top: -20px;
+        color: #fff;
+        padding-top: 10px;
+      }
+      .article-data .month{
+        margin: 0px;
+      }
+      .article-data .month,
+      .article-data .day{
+        text-align: center;
+        display: block;
+      }
+      .article-data .day{
+        font-size: 28px;
+        font-weight: bold;
+        margin-top: -8px;
+      }
+      =.article-title {
+        padding: 0px 10px 0 10px;
+      }
+      .article-title h1{
+        text-align: center;
+        font-size: 32px;
+      }
+      .article-title a:hover {
+        text-decoration: none;
+        color: #d9535e;
+        transition: all 0.2s ease;
+      }
+      .article-tags{
+        margin: 18px;
+        text-align: center;
+        line-height: 24px;
+      }
+      #zzt-boder .thumbnail img:hover {
+        opacity: 0.8;
+        transition: all 0.2s ease-in-out;
+      }
+      .article-alert {
+        color: #777;
+        background-color: #eee;
+        border: 1px solid #eee;
+        padding: 13px;
+        margin-bottom: 20px;
+        border-radius: 6px;
+        overflow: auto; 
+      }
+      .article-alert p {
+        font-size: 12px;
+      }
+      .panel-heading {
+        border-bottom: none;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: normal;
+      }
+      .panel > .panel-heading {
+        color: #fff;
+        background-color: #3d4450;
+        border-color: #000;
+      }
+      #zzt-footer {
+        padding: 25px;
+        background-color: #3d4452;
+        text-align: center;
+        color: #fff;
+      }
+
+/*       @media (max-width: 991px) and (min-width: 768px){
+      body.nav-attachment {
+        padding-top: 94px;
+        }
+      } */
+      /* 自适应，等待查看 */
